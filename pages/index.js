@@ -14,7 +14,7 @@ export default function Index ({ data, featured }) {
     <>
       <Layout>
         <Head>
-          <title>Beranda | mazipan.space</title>
+          <title>Beranda | Flagodna</title>
         </Head>
         <Container>
           <HeaderHome />
