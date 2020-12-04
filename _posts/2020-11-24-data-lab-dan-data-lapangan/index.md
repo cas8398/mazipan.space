@@ -1,5 +1,5 @@
 ---
-title: Data Lab dan Data Lapangan
+title: Data laboratorium dan Data Lapangan
 date: '2020-11-24'
 excerpt: Bercerita mengenai apa yang saya tau soal Data Lab dan Data Lapangan dalam kaitannya dengan pemantauan Performa Web
 author: mazipan
