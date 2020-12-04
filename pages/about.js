@@ -20,7 +20,7 @@ export default function Index () {
             About
           </h2>
           <div className="content">
-            <h2 className="text-3xl md:text-4xl font-bold">Hi 👋, I am Irfan Maulana.</h2>
+            <h2 className="text-3xl md:text-4xl font-bold">Hi 👋, I am Flagodna.</h2>
           </div>
         </Fragment>
       </LayoutArticle>
