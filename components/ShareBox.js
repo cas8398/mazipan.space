@@ -53,7 +53,7 @@ export default function ShareArticle ({ text, url }) {
         ) : (
           <a
             href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(
-              text + ' - by @maz_ipan'
+              text + ' - by @flagodna'
             )}&url=${url}`}
             title="Share to Twitter"
             target="_blank"
