@@ -1,52 +1,30 @@
 ---
-title: Data laboratorium dan Data Lapangan
-date: '2020-11-24'
-excerpt: Bercerita mengenai apa yang saya tau soal Data Lab dan Data Lapangan dalam kaitannya dengan pemantauan Performa Web
-author: mazipan
+title: Hebat, MTsN 4 Sragen Raih Juara Terfavorit Lomba Vlog Guru Hebat Siswa Semangat Tingkat Nasional. Sang Guru Peraih Penghargaan Sampai Terharu
+date: '2020-12-10'
+excerpt: MTsN 4 Sragen kembali mencatatkan prestasi mengesankan. Setelah sebulan lalu meraih juara 3 lomba vlog dalam rangka bulan bahasa di MAN 1 Kebumen, kali ini Guru dan siswa MTsN di Plupuh itu berhasil mengukir prestasi membanggakan pada event festival kreatifitas guru dan siswa tingkat nasional tahun 2020
+author: Joglosemar
 published: true
 featured: false
 tags: [web-perf]
-coverImage: /thumbnail/data-lab-dan-data-lapangan/lab-data-vs-field-data.png
+coverImage: https://joglosemarnews.com/images/2020/12/IMG_20201211_001316.jpg
 lang: id
 enready: false
 ---
 
-Ketika kalian berurusan dengan web performance, kalian tentunya akan dihadapkan pada dua macam data yang mesti kalian pantau. Keduanya adalah Data Lab dan Data Lapangan. Kita akan membahas mengenai kedua jenis data ini, agar lebih melek dengan perbedaannya dan bisa menentukan data mana yang bisa digunakan untuk masing-masing kebutuhan kalian.
+MTsN 4 Sragen kembali mencatatkan prestasi mengesankan. Setelah sebulan lalu meraih juara 3 lomba vlog dalam rangka bulan bahasa di MAN 1 Kebumen, kali ini Guru dan siswa MTsN di Plupuh itu berhasil mengukir prestasi membanggakan pada event festival kreatifitas guru dan siswa tingkat nasional tahun 2020.
 
-## Data lab
+Pada event yang diikuti oleh sekitar 65 peserta se-Indonesia itu, guru MTsN 4 Sragen, Suparmo dan siswa Zalfa Valentina Maheswari berhasil meraih juara terfavorit pada lomba vlog dengan tema ” Guru Hebat, Siswa Semangat “.
 
-Data lab merupakan data yang didapatkan dari sebuah pengetesan di dalam lingkungan yang terkontrol dna terkendali. Contoh pengetesan yang akan mendapatkan data lab ini misalnya menggunakan Lighthouse di DevTools. Cara pengetesan seperti ini sangat bisa kita atur, misalnya kita bisa melakukan simulasi dengan jaringan internet cepat maupun lambat. Setelah menemukan konfigurasi yang cocok, kita bisa mengunci lingkungan tersebut dan melakukan pengujian secara berkala dengan lingkungan yang sama sehingga naik turunnya nilai yang di dapat sangat dimungkinkan memang karena kondisi web kita bukan karena faktor lain.
+Kepala MTsN 4 Sragen, Sumanto mengapresiasi raihan prestasi membanggakan itu. Pasalnya pihaknya sejak awal memang melakukan pendampingan secara langsung dalam proses pembuatan vlog tersebut.
 
-![Data lab di laporan Web.dev/measure](/thumbnail/data-lab-dan-data-lapangan/lab-data-web-dev.png)
+Baca Juga :  Perhatian, Kolam Renang Doeng Cuo Sragen Ditutup Sementara. Pemiliknya Meninggal Dunia Dimakamkan Protokol Covid-19
+Hal itu sesuai dengan petunjuk teknis lomba yang diberikan panitia. Menurutnya peserta lomba merupakan guru dan siswa TK/RA, SD/MI, SMP/MTs, SMA/MA se-Indonesia yang mewakili sekolah masing-masing.
 
-Data ini tentu tidak akan menggambarkan kondisi pengguna dari web kalian yang sebenarnya karena berada pada lingkungan yang sudah disetel sedemikian rupa. Namun pengujian untuk menghasilkan data lab ini sangat membantu untuk melakukan *debugging* pada web kita. Hasil yang didapat dari data lab umumnya bisa memberikan panduan yang jelas, utamanya bagi Web Developer untuk mengetahui kondisi web dan menyusun berbagai daftar aksi yang perlu dikerjakan untuk meningkatkan hasil yang di dapat.
+Pembuatan vlog oleh siswa dilakukan dari rumah sedangkan bapak guru berada di madrasah. Karena vlog ini berisi tentang review tugas kuis interaktif di google class room.
 
-Data lab bisa menjadi indikator sehatnya kondisi web kita dan bisa menjadi pegangan bagi kita bila disetel dengan baik, namun begitu bisa juga menjadi menyesatkan bila disetel dengan sembrono. Jadi kuncinya adalah menyetel lingkungan yang digunakan dalam pengujian data lab dengan bijak, kalau bisa sih mendekati rataan terbanyak dari kondisi pengguna nyata kita.
+“Terima kasih kepada bapak Suparmo dan ananda Zalfa Valentina Maheswari yang telah mengharumkan nama madrasah. Jangan lelah berkarya dan jangan lelah mendampingi anak-anak berkarya. Meski sudah juara, jangan berpuas diri, jangan jadi ini yang terakhir, teruslah berkarya,” papar Sumanto.
 
-Meski bermanfaat, data lab ini tidak seharusnya menjadi satu-satunya pegangan kita, karena bisa saja kalian mendapatkan nilai yang baik di data lab tapi tidak pada data lapangan dikarenakan salah menentukan lingkungan.
+Baca Juga :  Mencoblos Didampingi Istri dan 3 Anaknya, Suroto Ciptakan Sejarah Baru Kebangkitan Utara Bengawan di Pilkada Sragen. Optimis Bisa Raup 85 % Sragen Utara
+Sementara itu Suparmo, guru peserta lomba vlog mengungkapkan rasa syukur sekaligus terharu bisa meraih juara.
 
-Bukankah pada akhirnya kita membuat web untuk pengguna nyata, bukan untuk diri kita sendiri? Apalah artinya web cepat buat kita, tapi lambat buat orang lain?
-
-Disinilah kita menjadi perlu menyandingkan data lab kita dengan data lapangan.
-
-## Data lapangan
-
-Data lapangan adalah data yang dikumpulkan dari pengguna nyata, dengan lingkungan asli yang digunakan oleh pengguna tersebut. Kita tidak bisa mengatur bagaimana kondisi pengguna saat mengakses web kita, bisa jadi mereka menggunakan device yang bagus dan dalam jaringan internet yang cepat sehingga web kita akan cukup cepat untuk dimuat, sebaliknya bisa juga si pengguna dalam kondisi tidak ideal, jaringan internet yang lambat, maupun device dengan spesifikasi rendah. Kondisi seperti ini jelas akan berdampak web kita akan terasa lambat untuk dimuat.
-
-Contoh data lapangan adalah laporan yang dikumpulkan oleh Chrome UX Report, ini merupakan data nyata yang dikumpulkan oleh Google Chrome terhadap penggunanya. Contoh lain adalah data yang secara mandiri kita kumpulkan dari pengguna kita, misal dengan Google Analytics atau dengan alat pemantau pengguna nyata atau biasa dikenal dengan *Real User Measurement (RUM)*. Di lingkungan produk Google, data ini bisa juga kalian jumpai di Google Search Console, atau langsung query dari Chrome UX Report baik melalui Big Query maupun lewat [RESTful API dari Chrome UX](https://web.dev/chrome-ux-report-api/) yang memang juga telah disediakan untuk mempermudah mengakses datanya.
-
-![Data lapangan di laporan PageSpeed Insight](/thumbnail/data-lab-dan-data-lapangan/field-data-psi.png)
-
-![Data lapangan di laporan Search Console](/thumbnail/data-lab-dan-data-lapangan/field-data-search-console.png)
-
-Ketika kita melakukan pengujian lewat PageSpeed Insight, selain mendapatkan data lab kita juga akan diberikan cuplikan data lapangan dari Chrome UX jika memang tersedia. Enaknya data yang ditampilkan sudah di aggregasi sehingga kita tidak perlu lagi mencari formula untuk mengolah datanya lagi.
-
-Seperti disebutkan sebelumnya bahwa data ini berasal dari pengguna nyata, sehingga variasi dari laporan yang didapatkan biasanya cukup lebar, terutama bagi kalian yang memiliki diferensiasi pengguna yang banyak. Kalian bisa menemui skor yang sangat bagus, namun juga bisa menemukan skor yang sangat jelek. Itu mengapa umumnya laporan dari data ini diambil dalam percentile 75 seperti disarankan oleh PageSpeed Insight, tapi tidak menutup kemungkinan juga bagi kalian untuk mengambil jenis agregasi lainnya.
-
-## Pilih mana dong?
-
-Dua-duanya bukan pilihan melainkan pelengkap satu sama lain, data lab cocok untuk memberikan masukan secara langsung ke web developer, data lapangan cocok untuk mengetahui kondisi asli yang dirasakan pengguna.
-Pun ada data yang tidak bisa kalian dapatkan kalau misalnya hanya berpatokan pada data lab saja.
-Metric macam FID (*First Input Delay*) hanya tersedia pada data lapangan dan tidak bisa didapatkan di data lab karena sifatnya yang memang menunggu aksi dari pengguna.
-
-Jadi, daripada pusing pilih yang mana? Kenapa gak dua-duanya saja 🤣
+“Alhamdulillah, senang dan bangga karena mampu mendapatkan juara kembali. Kalau sebelumnya kita juara 3 vlog dalam rangka bulan bahasa di MAN 1 Kebumen, kali ini juara terfavorit tingkat nasional, keberhasilan ini bisa diraih dengan ketekunan dan doa. Ketika belum berhasil jangan putus asa dan ketika sudah berhasil jangan sombong, tetap rendah hati, ” ujarnya. Wardoyo
